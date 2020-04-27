@@ -70,6 +70,7 @@ final class ___VARIABLE_sceneName___ViewController: CertificationViewController,
         default:
             break
         }
-        
+
         return super.tableView(tableView, cellForRowAt: indexPath)
+    }
 }
