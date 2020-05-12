@@ -27,7 +27,7 @@ final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___Business
     // MARK: - BusinessLogic
 
     func process(request: ___VARIABLE_sceneName___.Request) {
-        switch request.type {
+        switch request {
         case .doSomething:
             doSomething()
         }

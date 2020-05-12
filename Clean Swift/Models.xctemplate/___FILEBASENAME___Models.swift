@@ -13,7 +13,7 @@ enum ___VARIABLE_sceneName___ {
 
     // MARK: - Use cases
 
-    struct Request {
+    enum Request {
         case viewDidLoad
     }
 
